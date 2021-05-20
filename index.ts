@@ -8,8 +8,8 @@ enum APIVersion {
 }
 
 export class Targetprocess {
-    private subdomain: string;
-    private headers: {
+    private readonly subdomain: string;
+    private readonly headers: {
         [index: string]: string;
     };
 
